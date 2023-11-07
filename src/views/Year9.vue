@@ -14,6 +14,12 @@ import { RouterLink } from 'vue-router'
                     <h1>9M Games</h1> 
                 </RouterLink>   
             </div>
+            <div class="column" id="y9M">
+                <RouterLink to="/Year9T">
+                    <h1>9T Games</h1> 
+                </RouterLink>   
+            </div>
+
         </div>
 </template>
 

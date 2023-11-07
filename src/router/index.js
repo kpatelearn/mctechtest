@@ -5,6 +5,7 @@ import Seniors from '../views/Seniors.vue'
 import Year9 from '../views/Year9.vue'
 import Year9R from '../views/Year9R.vue'
 import Year9M from '../views/Year9M.vue'
+import Year9T from '../views/Year9T.vue'
 import Year10 from '../views/Year10.vue'
 
 const router = createRouter({
@@ -39,6 +40,11 @@ const router = createRouter({
       path: '/year9M',
       name: 'year9M',
       component: Year9M
+    },
+    {
+      path: '/year9T',
+      name: 'year9T',
+      component: Year9T
     },
     {
       path: '/year10',
